@@ -1,0 +1,16 @@
+{
+  "GarethMod:MetalHourglass": {
+    "NAME": "Metal Hourglass",
+    "FLAVOR": "Despite the name, it's not mercury this time.",
+    "DESCRIPTIONS": [
+      "Whenever you gain 10 #yBlock, deal 2 damage to all enemies."
+    ]
+  },
+  "GarethMod:KnightHammer": {
+  "NAME": "Knight Hammer",
+  "FLAVOR": "Sturdy and unreliable.",
+  "DESCRIPTIONS": [
+    "Whenever you enter a rest site, upgrade 2 random cards."
+  ]
+}
+}

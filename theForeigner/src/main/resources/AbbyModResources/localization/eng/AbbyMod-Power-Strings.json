@@ -1,0 +1,84 @@
+{
+  "AbbyMod:Ab_Madness": {
+    "NAME": "Madness",
+    "DESCRIPTIONS": [
+      "You gain #rMadness stacks equal to energy spent. Upon reaching ",
+      " decrease that many stacks and gain #rQliphoth #rRhizome."
+    ]
+  },
+  "AbbyMod:KeyholeToSomewhere": {
+    "NAME": "Beyond the Keyhole",
+    "DESCRIPTIONS": [
+      "At the start of your turn gain #r",
+      " extra [E] . Can stack up to ",
+      " times. Further stacks add Plated Armor instead."
+    ]
+  },
+  "AbbyMod:Unlocked": {
+    "NAME": "Unlocked",
+    "DESCRIPTIONS": [
+      "Next turn add ",
+      " to your hand."
+    ]
+  },
+  "AbbyMod:FleshFeast": {
+    "NAME": "Flesh Feast",
+    "DESCRIPTIONS": [
+      "After defeating all your enemies gain ",
+      " Max HP."
+    ]
+  },
+  "AbbyMod:AngelPrayer": {
+    "NAME": "Angel Prayer",
+    "DESCRIPTIONS": [
+      "At the start of your turn gain ",
+      " #yDexterity and ",
+      " #yStrength."
+    ]
+  },
+  "AbbyMod:CosmicEvent": {
+    "NAME": "Cosmic Event",
+    "DESCRIPTIONS": [
+      "If you end the next ",
+      " turns with 0 [E] , gain 5 #yStrength and 2 #yDexterity."
+    ]
+  },
+  "AbbyMod:OldOneGospel": {
+    "NAME": "Old One's Gospel",
+    "DESCRIPTIONS": [
+      "Whenever you play a card exhaust it."
+    ]
+  },
+  "AbbyMod:InMyHead": {
+    "NAME": "In My Head...",
+    "DESCRIPTIONS": [
+      "At the start of your turn gain Madness equals your [E] multiplied by "
+    ]
+  },
+  "AbbyMod:AcceptedTheDeal": {
+    "NAME": "Deal Accepted",
+    "DESCRIPTIONS": [
+      "After ",
+      " turns, gain 5 #yDexterity."
+    ]
+  },
+  "AbbyMod:BangBangBang": {
+    "NAME": "Deal Accepted",
+    "DESCRIPTIONS": [
+      "After ",
+      " turns, remove all your #yPlated #yArmor."
+    ]
+  },
+  "AbbyMod:SpaceLoop": {
+    "NAME": "Space Loop",
+    "DESCRIPTIONS": [
+      "At the end of the turn, return a card from the discard pile to the top of draw pile."
+    ]
+  },
+  "AbbyMod:ChaosEntropy": {
+    "NAME": "Chaotic Entropy",
+    "DESCRIPTIONS": [
+      "At the start of the turn, reduce the cost of the top card on your draw pile by "
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "AbbyMod:Salem_Diary": {
+    "NAME": "Salem Diary",
+    "FLAVOR": "The one born under the curse of the old ones can acquire just a bit of comfort on reading those pages.",
+    "DESCRIPTIONS": [
+      "Whenever you play a card, gain #rMadness equal to the energy spent."
+    ]
+  },
+  "AbbyMod:YogBlessing": {
+    "NAME": "Yog's Blessing",
+    "FLAVOR": "In many places, it's considered a curse instead.",
+    "DESCRIPTIONS": [
+      "AbbyMod:Madness threshold to generate #rQliphoth #rRhizome is now 8. Start combat with 1 #yKeyhole and -1 #yDexterity."
+    ]
+  },
+  "AbbyMod:MetalizedInsanity": {
+    "NAME": "Metalized Insanity",
+    "FLAVOR": "How hard can it be?",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain 2 #yBlock for every stack of #yKeyhole"
+    ]
+  },
+  "AbbyMod:CosmoBattery": {
+    "NAME": "Cosmo's Battery",
+    "FLAVOR": "And assault.",
+    "DESCRIPTIONS": [
+      "Increase the maximum stacks of #yKeyholes to 4."
+    ]
+  }
+}

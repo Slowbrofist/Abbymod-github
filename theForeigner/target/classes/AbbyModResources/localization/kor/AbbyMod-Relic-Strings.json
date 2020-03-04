@@ -1,0 +1,30 @@
+{
+  "AbbyMod:Salem_Diary": {
+    "NAME": "살렘 일기",
+    "FLAVOR": "옛 존재의 저주로 태어난 이가 이것을 읽을 때 약간의 위안을 느낍니다.",
+    "DESCRIPTIONS": [
+      "카드를 사용할 때마다 소비되는 에너지와 동일한 양의 #r광기 를 얻습니다."
+    ]
+  },
+  "AbbyMod:YogBlessing": {
+    "NAME": "요그의 축복",
+    "FLAVOR": "많은 곳에서 이것은 저주로 여겨집니다.",
+    "DESCRIPTIONS": [
+      "#r클리포스 #r리좀 을 얻기 위한 #y광기 의 임계치가 8 로 바뀝니다. #y열쇠구멍 을 1 얻고 전투를 시작합니다."
+    ]
+  },
+  "AbbyMod:MetalizedInsanity": {
+    "NAME": "강철멘탈",
+    "FLAVOR": "얼마나 힘들었을까?",
+    "DESCRIPTIONS": [
+      "내 턴이 끝날 때마다, #y열쇠구멍 의 갯수만큼 #y방어도 를 얻습니다."
+    ]
+  },
+  "AbbyMod:CosmoBattery": {
+    "NAME": "코스모의 배터리",
+    "FLAVOR": "그리고 폭행.",
+    "DESCRIPTIONS": [
+      "#y열쇠구멍 의 최대 스택을 4 로 늘립니다."
+    ]
+  }
+}
