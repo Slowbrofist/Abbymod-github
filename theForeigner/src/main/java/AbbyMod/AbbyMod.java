@@ -436,7 +436,7 @@ PostDeathSubscriber{
         // CharacterStrings
         BaseMod.loadCustomStringsFile(CharacterStrings.class,
                 getModID() + "Resources/localization/eng/AbbyMod-Character-Strings.json");
-        /*switch (Settings.language) {
+        switch (Settings.language) {
             case KOR:
                 // CardStrings
                 BaseMod.loadCustomStringsFile(CardStrings.class,
@@ -455,7 +455,6 @@ PostDeathSubscriber{
                         getModID() + "Resources/localization/kor/AbbyMod-Character-Strings.json");
                 break;
             }
-         */
         logger.info("Done editing strings");
     }
 
@@ -470,7 +469,7 @@ PostDeathSubscriber{
                 BaseMod.addKeyword(getModID().toLowerCase(), keyword.PROPER_NAME, keyword.NAMES, keyword.DESCRIPTION);
             }
         }
-        /*switch (Settings.language) {
+        switch (Settings.language) {
             case KOR:
                 json = Gdx.files.internal(getModID() + "Resources/localization/kor/AbbyMod-Keyword-Strings.json").readString(String.valueOf(StandardCharsets.UTF_8));
                 keywords = gson.fromJson(json, com.evacipated.cardcrawl.mod.stslib.Keyword[].class);
@@ -480,7 +479,7 @@ PostDeathSubscriber{
                         BaseMod.addKeyword(getModID().toLowerCase(), keyword.PROPER_NAME, keyword.NAMES, keyword.DESCRIPTION);
                     }
                 }
-        }*/
+        }
     }
 
     public static String makeID(String idText) {
