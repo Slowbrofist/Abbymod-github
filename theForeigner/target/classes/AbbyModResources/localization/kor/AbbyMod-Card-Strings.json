@@ -1,16 +1,16 @@
 {
   "AbbyMod:Dabigail": {
-    "NAME": "아비게일",
+    "NAME": "다비게일",
     "DESCRIPTION": "소멸. NL !M! [E] 를 얻습니다.",
     "UPGRADE_DESCRIPTION": "소멸. NL !M! [E] 를 얻습니다."
   },
   "AbbyMod:Abby_NP": {
     "NAME": "클리포 라이좀",
-    "DESCRIPTION": "제거. NL 피해를 !D! 줍니다. NL abbymod:열쇠구멍 을 얻습니다."
+    "DESCRIPTION": "abbymod:제거. NL 피해를 !D! 줍니다. NL abbymod:열쇠구멍 을 얻습니다."
   },
   "AbbyMod:Ab_Defend": {
     "NAME": "방어",
-    "DESCRIPTION": "방어도 를 !B! 만큼 X 회 얻습니다. NL 최대 3 회까지 가능합니다."
+    "DESCRIPTION": "방어도 를 !B! 만큼 X 회 얻습니다. NL X의 최대치는 3입니다."
   },
   "AbbyMod:Ab_Strike": {
     "NAME": "광기의 타격",
@@ -30,22 +30,22 @@
   },
   "AbbyMod:DemonPancake": {
     "NAME": "악마의 팬케이크",
-    "DESCRIPTION": "턴이 시작될 때, 힘을 !M! 얻습니다. NL 열쇠구멍을 !M! 얻습니다.",
-    "UPGRADE_DESCRIPTION": "선청성. NL 턴이 시작될 때, 힘을 !M! 얻습니다. NL 열쇠구멍을 !M! 얻습니다."
+    "DESCRIPTION": "턴이 시작될 때마다, 힘을 !M! 얻습니다. NL 열쇠구멍을 !M! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "선천성. NL 턴이 시작될 때마다, 힘을 !M! 얻습니다. NL 열쇠구멍을 !M! 얻습니다."
   },
   "AbbyMod:EyesOfMadness": {
-    "NAME": "광기의 눈",
+    "NAME": "광기에 찬 눈",
     "DESCRIPTION": "소멸. NL [E] [E] 를 얻습니다.",
-    "UPGRADE_DESCRIPTION": "보존. NL 소멸. NL [E] [E] 를 얻습니다."
+    "UPGRADE_DESCRIPTION": "보존. 소멸. NL [E] [E] 를 얻습니다."
   },
   "AbbyMod:FamiliarShield": {
-    "NAME": "친숙한 방패",
+    "NAME": "낯익은 방패",
     "DESCRIPTION": "소멸. NL  방어도 를 !B! 얻습니다. NL 판금 갑옷 이 !M! 보다 낮다면, 판금 갑옷 을 !M! 으로 만듭니다."
   },
   "AbbyMod:FleetingSanity": {
     "NAME": "덧없는 정신",
     "DESCRIPTION": "소멸. NL abbymod:광기 를 5 얻습니다.",
-    "UPGRADE_DESCRIPTION": "abbymod:광기 를 5 얻습니다.."
+    "UPGRADE_DESCRIPTION": "abbymod:광기 를 5 얻습니다."
   },
   "AbbyMod:ForeheadBeam": {
     "NAME": "이마 빔",
@@ -53,24 +53,24 @@
   },
   "AbbyMod:Keyblade": {
     "NAME": "열쇠검",
-    "DESCRIPTION": "피해를 !D! 줍니다. NL 이번 턴에만 적의 힘 을 !M! 감소시킵니다."
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이번 턴 동안 적의 힘 을 !M! 감소시킵니다."
   },
   "AbbyMod:LargeTentacle": {
     "NAME": "거대한 촉수",
     "DESCRIPTION": "피해를 !D! 줍니다."
   },
   "AbbyMod:LossOfSanity": {
-    "NAME": "이성 상실",
+    "NAME": "실성",
     "DESCRIPTION": "abbymod:광기 2 를 X 번 얻습니다.",
-    "UPGRADE_DESCRIPTION": "abbymod:광기 2 를 X+2 번 얻습니다.."
+    "UPGRADE_DESCRIPTION": "abbymod:광기 2 를 X+2 번 얻습니다."
   },
   "AbbyMod:OldOneLimb": {
     "NAME": "옛 존재의 수족",
     "DESCRIPTION": "소멸. NL 불가침 을 1 얻습니다. NL 최대 체력을 !M! 잃습니다."
   },
   "AbbyMod:SanityCheck": {
-    "NAME": "정신 검사",
-    "DESCRIPTION": "소멸. NL 버린 카드 더미에서 카드를 골라 뽑을 카드 더미 맨 위에 놓습니다. 이번 전투 동안 비용이 2 감소합니다."
+    "NAME": "상태 검사",
+    "DESCRIPTION": "소멸. NL 버린 카드 더미에서 카드를 골라 뽑을 카드 더미 맨 위에 놓습니다. 그 카드의 비용이 이번 전투 동안 비용이 2 감소합니다."
   },
   "AbbyMod:SavingThrow": {
     "NAME": "내성 굴림",
@@ -78,8 +78,8 @@
   },
   "AbbyMod:TeddyBear": {
     "NAME": "테디베어",
-    "DESCRIPTION": "소멸. NL 현재 가지고 있는 abbymod:광기 를 모두 잃고 체력을 10 회복합니다.",
-    "UPGRADE_DESCRIPTION": "선천성. NL 소멸. NL 현재 가지고 있는 abbymod:광기 를 모두 잃고 체력을 10 회복합니다."
+    "DESCRIPTION": "소멸. NL 보유한 abbymod:광기 를 모두 잃고 체력을 10 회복합니다.",
+    "UPGRADE_DESCRIPTION": "선천성. 소멸. NL 보유한 abbymod:광기 를 모두 잃고 체력을 10 회복합니다."
   },
   "AbbyMod:TentacleSwarm": {
     "NAME": "촉수 무리",
@@ -99,11 +99,11 @@
   },
   "AbbyMod:Thflth": {
     "NAME": "Thflthkh'ngha",
-    "DESCRIPTION": "방어도 를 !B! 얻습니다. NL 힘 을 3 얻습니다. NL abbymod:광기 를 3 얻습니다. NL abbymod:열쇠구멍 이 [E] 이 됩니다."
+    "DESCRIPTION": "방어도 를 !B! 얻습니다. NL 힘 을 3 얻습니다. NL abbymod:광기 를 3 얻습니다. NL abbymod:열쇠구멍 이 [E] 으로 변환됩니다."
   },
   "AbbyMod:Ygna": {
     "NAME": "Ygnaiih",
-    "DESCRIPTION": "방어도 를 !B! 얻습니다. NL 민첩 을 2 얻습니다.  NL abbymod:광기 를 3 얻습니다. NL abbymod:열쇠구멍 이 [E] 이 됩니다."
+    "DESCRIPTION": "방어도 를 !B! 얻습니다. NL 민첩 을 2 얻습니다.  NL abbymod:광기 를 3 얻습니다. NL abbymod:열쇠구멍 이 [E] 으로 변환됩니다."
   },
   "AbbyMod:PrayerOfFaith": {
     "NAME": "신념의 기도",
@@ -111,11 +111,11 @@
   },
   "AbbyMod:Takeuchi": {
     "NAME": "타케우치",
-    "DESCRIPTION": "소멸. NL 피해를 !D! 줍니다. NL 카드를 뽑고, 2 장 복사하여 가져옵니다."
+    "DESCRIPTION": "소멸. NL 피해를 !D! 줍니다. NL 카드를 뽑고, 그 카드를 2 장 복사하여 패에 가져옵니다."
   },
   "AbbyMod:Kinoko": {
     "NAME": "키노코",
-    "DESCRIPTION": "피해를 !D! 줍니다. NL 내 손의 카드를 모두 버리고, 카드를 !M! 장 뽑습니다."
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 내 패를 모두 버리고, 카드를 !M! 장 뽑습니다."
   },
   "AbbyMod:Kuroboshi": {
     "NAME": "쿠로보시",
@@ -127,23 +127,23 @@
   },
   "AbbyMod:Meteo": {
     "NAME": "메테오",
-    "DESCRIPTION": "이번 턴에 내 손에 있는 카드를 보존 합니다. NL 이번 전투 동안 이 카드의 비용이 1 증가합니다."
+    "DESCRIPTION": "이번 턴에 패를 보존 합니다. NL 이번 전투 동안 이 카드의 비용이 1 증가합니다."
   },
   "AbbyMod:CommandSpell": {
     "NAME": "영주",
-    "DESCRIPTION": "덧없음. NL 임시 체력을 !M! 얻습니다."
+    "DESCRIPTION": "abbymod:덧없음. NL abbymod:임시체력 을 !M! 얻습니다."
   },
   "AbbyMod:FlyingMascot": {
     "NAME": "날으는 마스코트",
-    "DESCRIPTION": "내 재생 을 제거하고 NL !M! 의 재생 을 얻습니다."
+    "DESCRIPTION": "내 재생 을 잃습니다. NL !M! 의 재생 을  얻습니다."
   },
   "AbbyMod:SweetPancakes": {
     "NAME": "달콤한 팬케이크!",
-    "DESCRIPTION": "덧없음. NL 최대 체력이 !M! 증가합니다."
+    "DESCRIPTION": "abbymod:덧없음. NL 최대 체력이 !M! 증가합니다."
   },
   "AbbyMod:RecklessSlam": {
     "NAME": "무모한 돌진",
-    "DESCRIPTION": "피해를 !D! 주고, 약화 를 !M! 받습니다."
+    "DESCRIPTION": "피해를 !D! 줍니다. 약화 를 !M! 얻습니다."
   },
   "AbbyMod:BadGirl": {
     "NAME": "나쁜 아이",
@@ -154,8 +154,8 @@
     "DESCRIPTION": "abbymod:열쇠. NL 방어도 를 !B! 얻습니다. NL 피해를 !D! 줍니다."
   },
   "AbbyMod:ExposeNavel": {
-    "NAME": "배꼽 노출",
-    "DESCRIPTION": "피해를 !D! 줍니다. NL 약화 를 !M! 부여합니다. NL 이번 턴 동안 적의 힘 을 !M! 감소시킵니다.",
+    "NAME": "배꼽 드러내기",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이번 턴 동안 적의 힘 을 !M! 감소시킵니다. NL 약화 를 !M! 부여합니다.",
     "UPGRADE_DESCRIPTION": "진액 파워"
   },
   "AbbyMod:LiftSkirt": {
@@ -181,7 +181,7 @@
   },
   "AbbyMod:SlimyBody": {
     "NAME": "미끈한 몸",
-    "DESCRIPTION": "소멸. NL 불가침 을 1 얻습니다. NL 점액투성이 카드를 !M! 만큼 내 손에 추가합니다."
+    "DESCRIPTION": "소멸. NL 불가침 을 1 얻습니다. NL 점액투성이 카드를 !M! 개 내 손에 추가합니다."
   },
   "AbbyMod:VoidPriest": {
     "NAME": "Hafh'drn",
@@ -194,7 +194,7 @@
   },
   "AbbyMod:VoidWhispers": {
     "NAME": "속삭임",
-    "DESCRIPTION": "매 턴마다 내 에너지 만큼의 abbymod:광기 를 얻습니다."
+    "DESCRIPTION": "턴이 시작될 때마다 내 에너지 만큼의 abbymod:광기 를 얻습니다."
   },
   "AbbyMod:PantyShot": {
     "NAME": "팬티 샷",
@@ -215,8 +215,7 @@
   },
   "AbbyMod:MeltBrain": {
     "NAME": "뇌 용해",
-    "DESCRIPTION": "소멸. 보존. NL abbymod:열쇠구멍 을 잃고, 잃은 abbymod:열쇠구멍 하나당 [E] 와 2 의 abbymod:광기 를 얻습니다.",
-    "UPGRADE_DESCRIPTION": "선천성, 소멸, 보존. NL abbymod:열쇠구멍 을 잃고, 잃은 abbymod:열쇠구멍 하나당 [E] 와 2 의 abbymod:광기 를 얻습니다."
+    "DESCRIPTION": "소멸. 보존. NL 방어도를 !M! 얻습니다. NL 약화 / 취약 / 손상 상태라면, 이 카드를 한 번 더 사용하고, 카드를 뽑습니다.(각 디버프당 한 번씩)"
   },
   "AbbyMod:HeroCreationA": {
     "NAME": "영웅 작성 A",
@@ -224,11 +223,11 @@
   },
   "AbbyMod:WorldStrongest": {
     "NAME": "세계 최강",
-    "DESCRIPTION": "덧없음. NL 힘 을 !M! 얻고 민첩 을 !M! 얻습니다."
+    "DESCRIPTION": "abbymod:덧없음. NL 힘 을 !M! 얻고 민첩 을 !M! 얻습니다."
   },
   "AbbyMod:HolidayWishes": {
     "NAME": "휴일의 소원",
-    "DESCRIPTION": "무덤. NL 힘 과 민첩 을 2 얻습니다."
+    "DESCRIPTION": "abbymod:무덤. NL 힘 과 민첩 을 2 얻습니다."
   },
   "AbbyMod:LifeSentence": {
     "NAME": "종신형",
@@ -241,7 +240,7 @@
   },
   "AbbyMod:SuperMuscular": {
     "NAME": "초근력",
-    "DESCRIPTION": "무덤. NL abbymod:광기 를 5 얻습니다. NL 힘 을 1 얻습니다.",
+    "DESCRIPTION": "abbymod:무덤. NL abbymod:광기 를 5 얻습니다. NL 힘 을 1 얻습니다.",
     "UPGRADE_DESCRIPTION": "선천성. NL abbymod:광기 를 5 얻습니다. NL 힘 을 1 얻습니다."
   },
   "AbbyMod:WormHole": {
@@ -250,14 +249,14 @@
   },
   "AbbyMod:CosmicSpark": {
     "NAME": "우주의 불꽃",
-    "DESCRIPTION": "자동, 소멸. NL 매 턴 시작시 클리포 라이좀 카드를 얻습니다. NL 임시 체력 을 3 얻습니다."
+    "DESCRIPTION": "abbymod:자동, 소멸. NL 자동으로 사용 시 클리포 라이좀 카드를 얻습니다. NL abbymod:임시체력 을 3 얻습니다."
   },
   "AbbyMod:Ab_PuppyEyes": {
     "NAME": "사랑스러운 눈빛",
-    "DESCRIPTION": "선천성, 보존, 제거. NL 방어도 를 !B! 얻습니다. NL 손상 을 2 얻습니다."
+    "DESCRIPTION": "선천성, 보존, abbymod:제거. NL 방어도 를 !B! 얻습니다. NL 손상 을 2 얻습니다."
   },
   "AbbyMod:Ab_DarkestPact": {
-    "NAME": "암울한 계약",
+    "NAME": "비밀스러운 계약",
     "DESCRIPTION": "손상 을 !M! 얻습니다. !M! 턴 후에 민첩 을 5 얻습니다."
   },
   "AbbyMod:Ab_OldOneTrigger": {
@@ -270,15 +269,15 @@
   },
   "AbbyMod:Ab_FiveStars": {
     "NAME": "다섯개의 별",
-    "DESCRIPTION": "적 전체에게 피해를 !D! 줍니다. NL 만약 [E] 가 정확히 5 라면, 2 [E] 를 얻고 NL 이번 전투 동안 이 카드의 피해량이 5 증가합니다."
+    "DESCRIPTION": "적 전체에게 피해를 !D! 만큼 2번 줍니다. NL 만약 [E] 가 정확히 5 라면, 2 [E] 를 얻고 NL 이번 전투 동안 이 카드의 피해량이 5 증가합니다."
   },
   "AbbyMod:AceInTheHole": {
     "NAME": "비장의 술수",
-    "DESCRIPTION": "피해를 !D! 줍니다. 약화 상태라면 피해량이 2배가 됩니다."
+    "DESCRIPTION": "피해를 !D! 줍니다. 손상 상태라면 피해량이 2배가 됩니다."
   },
   "AbbyMod:FarAwayFriend": {
     "NAME": "먼 곳의 친구",
-    "DESCRIPTION": "임시 체력을 !M! 얻습니다. NL abbymod:열쇠구멍 개수만큼 추가로 임시 체력을 1 얻습니다."
+    "DESCRIPTION": "abbymod:임시체력 을 !M! 얻습니다. NL abbymod:열쇠구멍 개수만큼 추가로 임시체력을 1 얻습니다."
   },
   "AbbyMod:FatalEntropy": {
     "NAME": "치명적 무질서",
@@ -286,16 +285,16 @@
   },
   "AbbyMod:AttoSecond": {
     "NAME": "찰나의 순간",
-    "DESCRIPTION": "고갈: 3. NL 피해를 !D! 줍니다. NL 이 카드를 사용한 후 이 카드의 비용이 이번 전투 동안 1 감소합니다."
+    "DESCRIPTION": "abbymod:고갈 : 3. NL 피해를 !D! 줍니다. NL 이 카드의 비용이 이번 전투 동안 1 감소합니다."
   },
   "AbbyMod:StarRadiance": {
     "NAME": "별의 광채",
-    "DESCRIPTION": "제거. NL abbymod:광기 를 !M! 얻습니다. NL 이번 게임에서 별의 광채를 사용한 만큼 반복합니다. NL ( !AbbyMod:SecondMagic! 번.)"
+    "DESCRIPTION": "제거. NL abbymod:광기 를 !M! 얻습니다. NL 이번 게임에서 별의 광채를 사용한 만큼 반복합니다. NL ( !AbbyMod:SecondMagic! 번)"
   },
   "AbbyMod:GudaGudaParticle": {
     "NAME": "구다구다 입자",
-    "DESCRIPTION": "고갈: 2. NL 버린 카드 더미에서 카드를 선택해 뽑을 카드 더미 맨 위에 놓고, 그 카드를 복사하여 패에 가져옵니다.",
-    "UPGRADE_DESCRIPTION": "고갈: 3. NL 버린 카드 더미에서 카드를 선택해 뽑을 카드 더미 맨 위에 놓고, 그 카드를 복사하여 패에 가져옵니다."
+    "DESCRIPTION": "abbymod:고갈 : 2. NL 버린 카드 더미에서 카드를 선택해 뽑을 카드 더미 맨 위에 놓고, 그 카드를 복사하여 패에 가져옵니다.",
+    "UPGRADE_DESCRIPTION": "abbymod:고갈 : 3. NL 버린 카드 더미에서 카드를 선택해 뽑을 카드 더미 맨 위에 놓고, 그 카드를 복사하여 패에 가져옵니다."
 
   },
   "AbbyMod:Memocide": {
@@ -309,11 +308,11 @@
   },
   "AbbyMod:ExposedCore": {
     "NAME": "노출된 핵",
-    "DESCRIPTION": "카드를 3장 뽑습니다. NL 약화를 !M! 얻습니다."
+    "DESCRIPTION": "카드를 3장 뽑습니다. NL 손상을 !M! 얻습니다."
   },
   "AbbyMod:EquivalentExchange": {
     "NAME": "등가 교환",
-    "DESCRIPTION": "제거. NL 뽑을 카드 더미 맨 위 카드를 소멸시킵니다. NL 소멸된 카드를 1장 패로 가져옵니다.",
+    "DESCRIPTION": "abbymod:제거. NL 뽑을 카드 더미 맨 위 카드를 소멸시킵니다. NL 소멸된 카드를 1장 패로 가져옵니다.",
     "UPGRADE_DESCRIPTION": "뽑을 카드 더미 맨 위 카드를 소멸시킵니다. NL 소멸된 카드를 1장 패로 가져옵니다."
   }
 }
