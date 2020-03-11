@@ -5,6 +5,8 @@ import AbbyMod.characters.AbbyChar;
 import AbbyMod.powers.Madness;
 import basemod.abstracts.CustomSavable;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.DiscardAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -19,7 +21,7 @@ public class StarRadiance extends AbstractDynamicCard implements CustomSavable<I
     public static final CardColor COLOR = AbbyChar.Enums.FGOAb;
     private static final int COST = 3;
     private static final int  MAGIC = 5;
-    private static int COUNTER = 0;
+    private static int COUNTER = 1;
 
 
 
@@ -39,9 +41,15 @@ public class StarRadiance extends AbstractDynamicCard implements CustomSavable<I
 
     }
     public void use(AbstractPlayer p, AbstractMonster m) {
-        COUNTER++;
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p,
-                new Madness(p,this.magicNumber * (COUNTER)),this.magicNumber * (COUNTER)));
+
+        if (COUNTER < 5)
+            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInHandAction(new Abby_NP(),COUNTER));
+        if (COUNTER >= 5){
+            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInHandAction(new Abby_NP(),5));
+            AbstractDungeon.actionManager.addToBottom(new DiscardAction(p, p, COUNTER - 5,true));
+        }
+        if(COUNTER < 10)
+            COUNTER++;
         }
 
     @Override
@@ -63,7 +71,7 @@ public class StarRadiance extends AbstractDynamicCard implements CustomSavable<I
     }
 
     public static void resetCounter(){
-        COUNTER = 0;
+        COUNTER = 1;
         return;
     }
 

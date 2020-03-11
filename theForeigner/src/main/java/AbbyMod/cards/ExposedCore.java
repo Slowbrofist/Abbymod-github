@@ -17,7 +17,7 @@ public class ExposedCore extends AbstractDynamicCard {
     public static final String ID = AbbyMod.makeID(ExposedCore.class.getSimpleName());
     public static final String IMG = makeCardPath("ExposedCore.png");
     public static final CardColor COLOR = AbbyChar.Enums.FGOAb;
-    private static final int COST = 0;
+    private static final int COST = 1;
     private static final int MAGIC = 2;
 
     public ExposedCore() {

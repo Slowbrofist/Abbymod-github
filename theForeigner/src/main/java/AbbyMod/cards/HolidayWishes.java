@@ -25,7 +25,7 @@ public class HolidayWishes extends AbstractDynamicCard {
                 COST,
                 CardType.POWER,
                 COLOR,
-                CardRarity.COMMON,
+                CardRarity.UNCOMMON,
                 CardTarget.SELF);
         GraveField.grave.set(this, true);
     }

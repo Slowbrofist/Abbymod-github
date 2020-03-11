@@ -34,6 +34,12 @@ public class Madness extends AbstractPower{
         this.type = AbstractPower.PowerType.BUFF;
         getDivider();
         updateDescription();
+        while(this.amount >= this.stc){
+            flash();
+            this.amount-=this.stc;
+            AbstractCard abbynp = new Abby_NP();
+            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInHandAction(abbynp, 1, false));
+        }
         this.region128 = new TextureAtlas.AtlasRegion(tex84, 0, 0, 84, 84);
         this.region48 = new TextureAtlas.AtlasRegion(tex32, 0, 0, 32, 32);
     }

@@ -25,7 +25,7 @@ public class Kuroboshi extends AbstractDynamicCard {
                 COST,
                 CardType.SKILL,
                 COLOR,
-                CardRarity.UNCOMMON,
+                CardRarity.COMMON,
                 CardTarget.SELF
         );
         this.baseBlock = BLOCK_AMT;

@@ -289,7 +289,7 @@
   },
   "AbbyMod:StarRadiance": {
     "NAME": "Star Radiance",
-    "DESCRIPTION": "Purge. NL Gain !M! abbymod:Madness. NL Repeat for every Star Radiance you've played this run. NL ( !AbbyMod:SecondMagic! times.)"
+    "DESCRIPTION": "Purge. NL Gain a NP for each Star Radiance played this run up to 5. Above 5, discard a card for excess up to 9. NL ( !AbbyMod:SecondMagic! )"
   },
   "AbbyMod:GudaGudaParticle": {
     "NAME": "GUDAGUDA Particles",
