@@ -249,11 +249,11 @@
   },
   "AbbyMod:CosmicSpark": {
     "NAME": "우주의 불꽃",
-    "DESCRIPTION": "abbymod:자동, 소멸. NL 자동으로 사용 시 클리포 라이좀 카드를 얻습니다. NL abbymod:임시체력 을 3 얻습니다."
+    "DESCRIPTION": "abbymod:자동. 소멸. NL 전투 시작 시 클리포 라이좀 카드를 얻습니다. NL abbymod:임시체력 을 3 얻습니다."
   },
   "AbbyMod:Ab_PuppyEyes": {
     "NAME": "사랑스러운 눈빛",
-    "DESCRIPTION": "선천성, 보존, abbymod:제거. NL 방어도 를 !B! 얻습니다. NL 손상 을 2 얻습니다."
+    "DESCRIPTION": "선천성. 보존, abbymod:제거. NL 방어도 를 !B! 얻습니다. NL 손상 을 2 얻습니다."
   },
   "AbbyMod:Ab_DarkestPact": {
     "NAME": "비밀스러운 계약",
@@ -289,13 +289,12 @@
   },
   "AbbyMod:StarRadiance": {
     "NAME": "별의 광채",
-    "DESCRIPTION": "제거. NL abbymod:광기 를 !M! 얻습니다. NL 이번 게임에서 별의 광채를 사용한 만큼 반복합니다. NL ( !AbbyMod:SecondMagic! 번)"
+    "DESCRIPTION": "제거. NL 이번 게임에서 별의 광채를 사용한 만큼 클리포 라이좀을 최대 5개까지 얻습니다. NL 5 이상일 시, 초과한 만큼 최대 9개까지 카드를 버립니다. NL ( !AbbyMod:SecondMagic! 번)"
   },
   "AbbyMod:GudaGudaParticle": {
     "NAME": "구다구다 입자",
     "DESCRIPTION": "abbymod:고갈 : 2. NL 버린 카드 더미에서 카드를 선택해 뽑을 카드 더미 맨 위에 놓고, 그 카드를 복사하여 패에 가져옵니다.",
     "UPGRADE_DESCRIPTION": "abbymod:고갈 : 3. NL 버린 카드 더미에서 카드를 선택해 뽑을 카드 더미 맨 위에 놓고, 그 카드를 복사하여 패에 가져옵니다."
-
   },
   "AbbyMod:Memocide": {
     "NAME": "검열",
