@@ -3,8 +3,11 @@ package AbbyMod.cards;
 import AbbyMod.AbbyMod;
 import AbbyMod.characters.AbbyChar;
 import static AbbyMod.AbbyMod.makeCardPath;
+
+import com.evacipated.cardcrawl.mod.stslib.cards.interfaces.StartupCard;
 import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.GraveField;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -13,7 +16,7 @@ import com.megacrit.cardcrawl.powers.DexterityPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 
 
-public class HolidayWishes extends AbstractDynamicCard {
+public class HolidayWishes extends AbstractDynamicCard implements StartupCard {
 
     public static final String ID = AbbyMod.makeID(HolidayWishes.class.getSimpleName());
     public static final String IMG = makeCardPath("HolidayWishes.png");
@@ -48,5 +51,11 @@ public class HolidayWishes extends AbstractDynamicCard {
 
     public AbstractCard makeCopy() {
         return new HolidayWishes();
+    }
+
+    @Override
+    public boolean atBattleStartPreDraw() {
+        AbstractDungeon.player.energy.use(1);
+        return true;
     }
 }

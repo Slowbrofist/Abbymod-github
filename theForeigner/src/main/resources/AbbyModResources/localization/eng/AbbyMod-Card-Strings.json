@@ -66,7 +66,7 @@
   },
   "AbbyMod:OldOneLimb": {
     "NAME": "Old One's Limb",
-    "DESCRIPTION": "Exhaust. NL Gain 1 Intangible. NL Lose !M! Max HP."
+    "DESCRIPTION": "While you have Frail, if you gain Weak or Vulnerable, they are denied from being applied and you gain !M! Block next turn."
   },
   "AbbyMod:SanityCheck": {
     "NAME": "Sanity Check",
@@ -227,7 +227,7 @@
   },
   "AbbyMod:HolidayWishes": {
     "NAME": "Holiday Wishes",
-    "DESCRIPTION": "Grave. NL Gain 2 Strength and 2 Dexterity."
+    "DESCRIPTION": "Grave. NL Startup: Lose [E] . NL Gain 2 Strength and 2 Dexterity."
   },
   "AbbyMod:LifeSentence": {
     "NAME": "Life Sentence",
@@ -289,7 +289,7 @@
   },
   "AbbyMod:StarRadiance": {
     "NAME": "Star Radiance",
-    "DESCRIPTION": "Purge. NL Gain a NP for each Star Radiance played this run up to 5. Above 5, discard a card for excess up to 9. NL ( !AbbyMod:SecondMagic! )"
+    "DESCRIPTION": "Purge. NL Startup: Gain Block equals to Counter. NL Gain !B! Block, increase Counter by one for each Star Radiance played this run up to 10. ( !M! ) "
   },
   "AbbyMod:GudaGudaParticle": {
     "NAME": "GUDAGUDA Particles",

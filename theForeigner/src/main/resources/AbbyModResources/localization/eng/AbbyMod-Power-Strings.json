@@ -80,5 +80,11 @@
     "DESCRIPTIONS": [
       "At the start of the turn, reduce the cost of the top card on your draw pile by "
     ]
+  },
+  "AbbyMod:OldLimbPower": {
+    "NAME": "Father's Limbs",
+    "DESCRIPTIONS": [
+      "While you have Frail, if you gain Weak or Vulnerable, they are denied from being applied and you gain ", " Block next turn."
+    ]
   }
 }
