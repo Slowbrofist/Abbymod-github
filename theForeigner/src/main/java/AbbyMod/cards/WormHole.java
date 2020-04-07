@@ -41,7 +41,7 @@ public class WormHole extends AbstractDynamicCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeBaseCost(4);
+            upgradeBaseCost(3);
             initializeDescription();
         }
     }

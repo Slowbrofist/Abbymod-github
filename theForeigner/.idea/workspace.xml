@@ -3,21 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="478bcacc-df62-492a-921c-2610dcca9831" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AbbyMod/cards/FatalEntropy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AbbyMod/cards/FatalEntropy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AbbyMod/cards/WormHole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AbbyMod/cards/WormHole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/AbbyModResources/localization/eng/AbbyMod-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AbbyModResources/localization/eng/AbbyMod-Card-Strings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/AbbyModResources/localization/kor/AbbyMod-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AbbyModResources/localization/kor/AbbyMod-Card-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/AbbyModResources/localization/kor/AbbyMod-Character-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AbbyModResources/localization/kor/AbbyMod-Character-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/AbbyModResources/localization/kor/AbbyMod-Keyword-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AbbyModResources/localization/kor/AbbyMod-Keyword-Strings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/AbbyModResources/localization/kor/AbbyMod-Power-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AbbyModResources/localization/kor/AbbyMod-Power-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/AbbyModResources/localization/kor/AbbyMod-Relic-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AbbyModResources/localization/kor/AbbyMod-Relic-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AbbyMod.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AbbyMod.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AbbyModResources/localization/kor/AbbyMod-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbbyModResources/localization/kor/AbbyMod-Card-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AbbyModResources/localization/kor/AbbyMod-Character-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbbyModResources/localization/kor/AbbyMod-Character-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AbbyModResources/localization/kor/AbbyMod-Keyword-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbbyModResources/localization/kor/AbbyMod-Keyword-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AbbyModResources/localization/kor/AbbyMod-Power-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbbyModResources/localization/kor/AbbyMod-Power-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AbbyModResources/localization/kor/AbbyMod-Relic-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbbyModResources/localization/kor/AbbyMod-Relic-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ModTheSpire.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ModTheSpire.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +26,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1QEwrh3jd0qFe0KoCIu8bHMc0Vy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -83,35 +76,46 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1586199894157">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1586199894157" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584381652323" />
     <state x="-1269" y="169" key="FileChooserDialogImpl" timestamp="1583113772657">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1269" y="169" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1583113772657" />
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1576292323235" />
-    <state width="1527" height="248" key="GridCell.Tab.0.bottom" timestamp="1583717210152">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1527" height="248" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1583717210152" />
-    <state width="1323" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1583702947173" />
-    <state width="1527" height="248" key="GridCell.Tab.0.center" timestamp="1583717210152">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1527" height="248" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1583717210152" />
-    <state width="1323" height="209" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1583702947172" />
-    <state width="1527" height="248" key="GridCell.Tab.0.left" timestamp="1583717210152">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1527" height="248" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1583717210152" />
-    <state width="1323" height="209" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1583702947172" />
-    <state width="1527" height="248" key="GridCell.Tab.0.right" timestamp="1583717210152">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1527" height="248" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1583717210152" />
-    <state width="1323" height="209" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1583702947172" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1576292292815">
+    <state width="1323" height="248" key="GridCell.Tab.0.bottom" timestamp="1584788917106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1576292292815" />
+    <state width="1306" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584010542662" />
+    <state width="1323" height="248" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1584788917106" />
+    <state width="1323" height="248" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584386791515" />
+    <state width="1323" height="248" key="GridCell.Tab.0.center" timestamp="1584788917106">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="244" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584010542662" />
+    <state width="1323" height="248" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1584788917106" />
+    <state width="1323" height="248" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584386791515" />
+    <state width="1323" height="248" key="GridCell.Tab.0.left" timestamp="1584788917106">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="244" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584010542662" />
+    <state width="1323" height="248" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1584788917106" />
+    <state width="1323" height="248" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584386791515" />
+    <state width="1323" height="248" key="GridCell.Tab.0.right" timestamp="1584788917106">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="244" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584010542662" />
+    <state width="1323" height="248" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1584788917106" />
+    <state width="1323" height="248" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584386791515" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1584416960152">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1584416960152" />
   </component>
 </project>

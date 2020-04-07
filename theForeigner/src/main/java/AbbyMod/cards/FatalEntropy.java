@@ -3,20 +3,23 @@ package AbbyMod.cards;
 import AbbyMod.AbbyMod;
 import AbbyMod.characters.AbbyChar;
 import AbbyMod.powers.ChaosEntropy;
+import com.evacipated.cardcrawl.mod.stslib.cards.interfaces.StartupCard;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.DexterityPower;
 
 import static AbbyMod.AbbyMod.makeCardPath;
 
-public class FatalEntropy extends AbstractDynamicCard {
+public class FatalEntropy extends AbstractDynamicCard implements StartupCard {
 
     public static final String ID = AbbyMod.makeID(FatalEntropy.class.getSimpleName());
     public static final String IMG = makeCardPath("FatalEntropy.png");
     public static final CardColor COLOR = AbbyChar.Enums.FGOAb;
-    private static final int COST = 6;
+    private static final AbstractPlayer player  = AbstractDungeon.player;
+    private static final int COST = 5;
 
     public FatalEntropy() {
         super(
@@ -31,7 +34,7 @@ public class FatalEntropy extends AbstractDynamicCard {
 
     }
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p , new ChaosEntropy(p, 2),2));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(player, player , new DexterityPower(player, -1),-1));
     }
 
     public AbstractCard makeCopy() {
@@ -41,9 +44,16 @@ public class FatalEntropy extends AbstractDynamicCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeBaseCost(5);
+            upgradeBaseCost(3);
             initializeDescription();
         }
+    }
+
+    @Override
+    public boolean atBattleStartPreDraw() {
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(player, player , new ChaosEntropy(player, 2),2));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(player, player , new DexterityPower(player, -1),-1));
+        return true;
     }
 }
 

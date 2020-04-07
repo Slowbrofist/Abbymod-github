@@ -29,8 +29,8 @@
   },
   "AbbyMod:DemonPancake": {
     "NAME": "Demon Pancake",
-    "DESCRIPTION": "At the start of your turn, gain !M! Strength. NL Gain !M! Keyhole.",
-    "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, gain !M! Strength. NL Gain !M! Keyhole."
+    "DESCRIPTION": "At the start of your turn, gain !M! Strength. NL Gain !M! abbmod:Keyhole.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, gain !M! Strength. NL Gain !M! abbymod:Keyhole."
 
   },
   "AbbyMod:EyesOfMadness": {
@@ -281,7 +281,7 @@
   },
   "AbbyMod:FatalEntropy": {
     "NAME": "Fatal Entropy",
-    "DESCRIPTION": "At the start of every turn, reduce the cost of the top card on your draw pile by 2 this combat."
+    "DESCRIPTION": "Autoplay: At the start of every turn, reduce the cost of the top card on your draw pile by 2 this combat and lose 1 Dexterity. NL Gain 1 Dexterity."
   },
   "AbbyMod:AttoSecond": {
     "NAME": "Attosecond",

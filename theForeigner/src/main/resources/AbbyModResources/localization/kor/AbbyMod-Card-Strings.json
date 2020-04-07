@@ -66,7 +66,7 @@
   },
   "AbbyMod:OldOneLimb": {
     "NAME": "옛 존재의 수족",
-    "DESCRIPTION": "소멸. NL 불가침 을 1 얻습니다. NL 최대 체력을 !M! 잃습니다."
+    "DESCRIPTION": "손상을 가지고 있는 동안 약화 또는 취약을 받을 경우, 그 효과가 적용되지 않고 다음 턴에 방어도를 !M! 얻습니다."
   },
   "AbbyMod:SanityCheck": {
     "NAME": "상태 검사",
@@ -227,7 +227,7 @@
   },
   "AbbyMod:HolidayWishes": {
     "NAME": "휴일의 소원",
-    "DESCRIPTION": "abbymod:무덤. NL 힘 과 민첩 을 2 얻습니다."
+    "DESCRIPTION": "abbymod:무덤. NL 전투 시작 시 [E] 를 잃습니다. NL 힘 과 민첩 을 2 얻습니다."
   },
   "AbbyMod:LifeSentence": {
     "NAME": "종신형",
@@ -289,7 +289,7 @@
   },
   "AbbyMod:StarRadiance": {
     "NAME": "별의 광채",
-    "DESCRIPTION": "제거. NL 이번 게임에서 별의 광채를 사용한 만큼 클리포 라이좀을 최대 5개까지 얻습니다. NL 5 이상일 시, 초과한 만큼 최대 9개까지 카드를 버립니다. NL ( !AbbyMod:SecondMagic! 번)"
+    "DESCRIPTION": "제거. NL 전투 시작 시 이번 게임에서 이 카드를 사용한 만큼 방어도를 얻습니다. NL 방어도를 !B! 얻고, 별의 광채의 방어도를 최대 10까지 영구히 1 증가시킵니다. NL ( !M! )"
   },
   "AbbyMod:GudaGudaParticle": {
     "NAME": "구다구다 입자",
