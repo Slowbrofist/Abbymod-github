@@ -34,7 +34,7 @@ public class FatalEntropy extends AbstractDynamicCard implements StartupCard {
 
     }
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(player, player , new DexterityPower(player, -1),-1));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(player, player , new DexterityPower(player, 1),1));
     }
 
     public AbstractCard makeCopy() {

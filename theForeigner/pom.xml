@@ -6,7 +6,7 @@
     <groupId>AbbyMod</groupId>
     <artifactId>AbbyMod</artifactId>
     <name>Abigail Mod</name>
-    <version>0.5.6</version>
+    <version>0.5.7</version>
     <description>Adds Abigail Williams from FGO to SlayTheSpire, custom cards and relics.</description>
 
     <properties>

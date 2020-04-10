@@ -30,8 +30,8 @@
   },
   "AbbyMod:DemonPancake": {
     "NAME": "악마의 팬케이크",
-    "DESCRIPTION": "턴이 시작될 때마다, 힘을 !M! 얻습니다. NL 열쇠구멍을 !M! 얻습니다.",
-    "UPGRADE_DESCRIPTION": "선천성. NL 턴이 시작될 때마다, 힘을 !M! 얻습니다. NL 열쇠구멍을 !M! 얻습니다."
+    "DESCRIPTION": "턴이 시작될 때마다, 힘을 !M! 얻습니다. NL abbymod:열쇠구멍 을 !M! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "선천성. NL 턴이 시작될 때마다, 힘을 !M! 얻습니다. NL abbymod:열쇠구멍 을 !M! 얻습니다."
   },
   "AbbyMod:EyesOfMadness": {
     "NAME": "광기에 찬 눈",
@@ -281,7 +281,7 @@
   },
   "AbbyMod:FatalEntropy": {
     "NAME": "치명적 무질서",
-    "DESCRIPTION": "매 턴이 시작될 때마다, 뽑을 카드 더미 맨 위 카드의 비용이 2 감소합니다."
+    "DESCRIPTION": "abbymod:자동 :매 턴이 시작될 때마다, 뽑을 카드 더미 맨 위 카드의 비용이 이번 전투 동안 2 감소하고 민첩을 1 잃습니다.NL 민첩을 1 얻습니다."
   },
   "AbbyMod:AttoSecond": {
     "NAME": "찰나의 순간",
