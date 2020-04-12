@@ -7,6 +7,7 @@ import com.evacipated.cardcrawl.mod.stslib.cards.interfaces.StartupCard;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.DexterityPower;
@@ -18,7 +19,6 @@ public class FatalEntropy extends AbstractDynamicCard implements StartupCard {
     public static final String ID = AbbyMod.makeID(FatalEntropy.class.getSimpleName());
     public static final String IMG = makeCardPath("FatalEntropy.png");
     public static final CardColor COLOR = AbbyChar.Enums.FGOAb;
-    private static final AbstractPlayer player  = AbstractDungeon.player;
     private static final int COST = 5;
 
     public FatalEntropy() {
@@ -34,7 +34,7 @@ public class FatalEntropy extends AbstractDynamicCard implements StartupCard {
 
     }
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(player, player , new DexterityPower(player, 1),1));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p , new DexterityPower(p, 1),1));
     }
 
     public AbstractCard makeCopy() {
@@ -51,8 +51,8 @@ public class FatalEntropy extends AbstractDynamicCard implements StartupCard {
 
     @Override
     public boolean atBattleStartPreDraw() {
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(player, player , new ChaosEntropy(player, 2),2));
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(player, player , new DexterityPower(player, -1),-1));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player , new ChaosEntropy(AbstractDungeon.player, 2),2));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player , new DexterityPower(AbstractDungeon.player, -1),-1));
         return true;
     }
 }

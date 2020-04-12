@@ -281,7 +281,7 @@
   },
   "AbbyMod:FatalEntropy": {
     "NAME": "Fatal Entropy",
-    "DESCRIPTION": "Autoplay: At the start of every turn, reduce the cost of the top card on your draw pile by 2 this combat and lose 1 Dexterity. NL Gain 1 Dexterity."
+    "DESCRIPTION": "Startup: At the start of every turn, reduce the cost of the top card on your draw pile by 2 this combat and lose 1 Dexterity. NL Gain 1 Dexterity."
   },
   "AbbyMod:AttoSecond": {
     "NAME": "Attosecond",
